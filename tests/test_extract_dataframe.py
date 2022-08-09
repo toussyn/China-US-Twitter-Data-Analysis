@@ -40,7 +40,6 @@ columns = [
 class TestTweetDfExtractor(unittest.TestCase):
     """
 		A class for unit-testing function in the fix_clean_tweets_dataframe.py file
-
 		Args:
         -----
 			unittest.TestCase this allows the new class to inherit
@@ -97,4 +96,3 @@ class TestTweetDfExtractor(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-
