@@ -10,8 +10,6 @@ from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 import pickle
 from  pages.plots import *
 
-# from add_data import db_execute_fetch #Comment this line for deployed version
-
 st.set_page_config(page_title="Dashboard", layout="wide")
 loaded_df = None
 def loadData():
