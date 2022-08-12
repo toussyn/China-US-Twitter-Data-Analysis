@@ -15,7 +15,7 @@ loaded_df = None
 def loadData():
     query = "select * from TweetInformation"
     # df = db_execute_fetch(query, dbName="tweets", rdf=True)
-    df = pd.read_csv("./st_dashboard/processed_global_data_tweets.csv") #For deployed version
+    df = pd.read_csv("./dashboards/processed_global_data_tweets.csv")
     loaded_df = df
     return df
 
