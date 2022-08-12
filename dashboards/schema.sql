@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS `TweetInformation`
     `created_at` TEXT NOT NULL,
     `source` VARCHAR(200) NOT NULL,
     `full_text` TEXT DEFAULT NULL,
-    `polarit` FLOAT DEFAULT NULL,
+    `polarity` FLOAT DEFAULT NULL,
     `subjectivit` FLOAT DEFAULT NULL,
     `language` TEXT DEFAULT NULL,
     `favorite_count` INT DEFAULT NULL,
